@@ -9,3 +9,14 @@ C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\obj\Debug\D
 C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.csproj.CopyComplete
 C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.exe
 C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.pdb
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\bin\Debug\DictionaryConsole.exe.config
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\bin\Debug\DictionaryConsole.exe
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\bin\Debug\DictionaryConsole.pdb
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\bin\Debug\Dictionary Web Service.dll
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\bin\Debug\Dictionary Web Service.pdb
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\bin\Debug\Dictionary Web Service.dll.config
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.csproj.AssemblyReference.cache
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.csproj.CoreCompileInputs.cache
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.csproj.CopyComplete
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.exe
+E:\SOC Project\Project\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.pdb

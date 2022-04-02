@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -11,13 +12,35 @@ namespace DictionaryClient
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-                AdminReference.AdminServiceClient admin = new
-                AdminReference.AdminServiceClient();
-                var words = admin.ShowAllWords();
-                GridView1.DataSource = words;
-                GridView1.DataBind();
-            
+            AdminReference.AdminServiceClient admin = new AdminReference.AdminServiceClient();
+            AdminReference.Word[] words = admin.ShowAllWords();
+            DataTable tbl = new DataTable();
+            tbl.Columns.Add(new DataColumn("WordId"));
+            tbl.Columns.Add(new DataColumn("Title"));
+            tbl.Columns.Add(new DataColumn("Meaning"));
+            tbl.Columns.Add(new DataColumn("Pronunciation"));
+            tbl.Columns.Add(new DataColumn("Plural"));
+            tbl.Columns.Add(new DataColumn("Adjective"));
+            tbl.Columns.Add(new DataColumn("Synonym"));
+            tbl.Columns.Add(new DataColumn("Antonym"));
+            tbl.Columns.Add(new DataColumn("ExampleSentence"));
+            DataRow row;
+            for (int i=0;i<words.Length;++i)
+            {
+                row = tbl.NewRow();
+                row["WordId"] = words[i].WordId;
+                row["Title"] = words[i].Title;
+                row["Meaning"] = words[i].Meaning;
+                row["Pronunciation"] = words[i].Pronunciation;
+                row["Plural"] = words[i].Plural;
+                row["Adjective"] = words[i].Adjective;
+                row["Synonym"] = words[i].Synonym;
+                row["Antonym"] = words[i].Antonym;
+                row["ExampleSentence"] = words[i].ExampleSentence;
+                tbl.Rows.Add(row);
+            }
+            GridView1.DataSource = tbl;
+            GridView1.DataBind();
         }
 
         protected void GridView1_OnRowCommand(object sender, GridViewCommandEventArgs e)

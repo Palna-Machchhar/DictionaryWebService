@@ -46,13 +46,15 @@
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Search" />
             <br />
             <br />
+                    <asp:Label ID="Label1" runat="server"></asp:Label>
             <br />
 
-        <table style="width:50%;">
+            <% if (flag)
+                { %>
+                <table style="width:50%;">
             <tr>
                 <td class="auto-style1" colspan="2">
-                    <asp:Label ID="Label1" runat="server"></asp:Label>
-                </td>
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style9">Title</td>
@@ -107,6 +109,8 @@
                 <td class="auto-style4">&nbsp;</td>
             </tr>
         </table>
+            <% }%>
+
         </div>
     
 </asp:Content>
