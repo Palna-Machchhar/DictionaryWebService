@@ -1,0 +1,11 @@
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\bin\Debug\DictionaryConsole.exe.config
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\bin\Debug\DictionaryConsole.exe
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\bin\Debug\DictionaryConsole.pdb
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\bin\Debug\Dictionary Web Service.dll
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\bin\Debug\Dictionary Web Service.pdb
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\bin\Debug\Dictionary Web Service.dll.config
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.csproj.AssemblyReference.cache
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.csproj.CoreCompileInputs.cache
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.csproj.CopyComplete
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.exe
+C:\Users\machc\source\repos\Dictionary Web Service\DictionaryConsole\obj\Debug\DictionaryConsole.pdb

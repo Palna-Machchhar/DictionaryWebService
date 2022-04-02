@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DictionaryClient.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="Content/Templete/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Templete/bootstrap.min.css" rel="stylesheet" />
+   <title></title>
+    <style>
+        .navbar-nav {
+            margin-left: 800px;
+        }
+        .header{
+            font-size:x-large;
+        }
+        .padding{
+            height:50px;
+        }
+        .footer{
+            margin-top: 0px;
+            background-image:url(footer_bg.jpg);
+            height:200px;
+            color:black;
+        }
+        .button{
+            background-color:none;
+            border:none;
+            text-align:end;
+        }
+       
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                   <li>
+                     <img src="Auction_logo.png" style="height:50px; width:50px; top:5px; left: -750px; position: relative;"/>   
+                   </li>
+                   
+                   <li class="nav-item">
+                       <button type="button" onclick="location.href='Default.aspx'" class="btn btn-warning">Home</button>
+                    </li>
+                    &emsp;&emsp;
+                   <li class="nav-item">
+                     <button type="button" onclick="location.href='AdminLogin.aspx'" class="btn btn-warning">Admin</button>
+                    </li>
+               </ul>
+            </div>
+            </div>
+        </nav>
+        </div>
+        <div class="padding"></div>
+        <!-- MAIN CONTENT PLACEHOLDER -->
+        <div class="main_content">
+            <center>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </center>
+        </div > 
+        <div class="padding"></div>
+        <!-- MAIN CONTENT PLACEHOLDER -->
+
+        <div class="footer">
+                <p align="center">
+                <br />
+                NO NEED TO RUN, BIDDING IS FUN !!<br />Just Bid It !!<br /><br />
+                @2022,Dictionary House&emsp;&emsp;&emsp;
+                <a href="ContactUs.aspx">Contact Us</a>&emsp;&emsp;&emsp;
+                <a href="cookie.aspx">Cookie Policy</a>&emsp;&emsp;&emsp;
+                <a href="terms.aspx">Terms & Conditions</a>&emsp;&emsp;&emsp;
+                <img src="facebook.png" style="top:530px; height:40px; width:40px;"/>&emsp;&emsp;&emsp;
+                <img src="instagram.png" style="top:530px; height:40px; width:40px;" />
+            </p>
+      
+            </div>
+        
+        
+    </form>
+</body>
+
+</html>

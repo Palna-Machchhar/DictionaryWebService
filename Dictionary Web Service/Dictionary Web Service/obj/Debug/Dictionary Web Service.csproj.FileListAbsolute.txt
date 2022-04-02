@@ -1,0 +1,7 @@
+C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\bin\Debug\Dictionary Web Service.dll.config
+C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\bin\Debug\Dictionary Web Service.dll
+C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\bin\Debug\Dictionary Web Service.pdb
+C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.csproj.AssemblyReference.cache
+C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.csproj.CoreCompileInputs.cache
+C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.dll
+C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.pdb
