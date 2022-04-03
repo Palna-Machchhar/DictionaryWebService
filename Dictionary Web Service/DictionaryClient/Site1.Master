@@ -28,7 +28,44 @@
             border:none;
             text-align:end;
         }
-       
+        .text {
+	 display: flex;
+	 justify-content: center;
+     margin-left: -730px;
+	 margin-top: 30px;
+	 transform: translateY(-50%);
+	 text-align: center;
+	 transition: transform 0.3s ease-in-out;
+}
+ .text:hover {
+	 transform: rotateX(35deg), translateY(-50%);
+}
+ .text:hover span {
+	 color: #ccc;
+}
+ .text:hover span:nth-child(odd) {
+	 transform: skewY(15deg);
+}
+ .text:hover span:nth-child(even) {
+	 transform: skewY(-15deg);
+	 background-color: #f9f9f9;
+	 color: #a6a6a6;
+}
+ .text > span {
+	 display: block;
+	 background-color: #fff;
+	 width: 40px;
+	 height: 40px;
+	 line-height: 40px;
+	 transition: transform 0.3s ease-in-out, color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+	 box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
+}
+ .text > span:first-child {
+	 border-radius: 5px 0 0 5px;
+}
+ 
+
+            
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -46,14 +83,48 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                    <li>
-                     <img src="Auction_logo.png" style="height:50px; width:50px; top:5px; left: -750px; position: relative;"/>   
+                     <img src="dictionary_logo.jpg" style="height:80px; width:80px; top:3px; left: -800px; position: relative;"/>   
                    </li>
-                   
-                   <li class="nav-item">
+                   <li>
+                       
+                       <div class="text">
+                           <span>D</span>
+                           <span>I</span>
+                           <span>C</span>
+                           <span>T</span>
+                           <span>I</span>
+                           <span>O</span>
+                           <span>N</span>
+                           <span>A</span>
+                           <span>R</span>
+                           <span>Y</span>
+                           
+                           <span></span>
+                           
+                           <span>W</span>
+                           <span>E</span>
+                           <span>B</span>
+                           
+                           <span></span>
+
+                           <span>S</span>
+                           <span>E</span>
+                           <span>R</span>
+                           <span>V</span>
+                           <span>I</span>
+                           <span>C</span>
+                           <span>E</span>
+                           
+                       </div>
+                          
+                   </li>
+                    &emsp;&nbsp;
+                   <li class="nav-item" style="margin-top: 8px;">
                        <button type="button" onclick="location.href='Default.aspx'" class="btn btn-warning">Home</button>
                     </li>
-                    &emsp;&emsp;
-                   <li class="nav-item">
+                    &emsp;
+                    
+                   <li class="nav-item" style="margin-top: 8px;">
                      <button type="button" onclick="location.href='AdminLogin.aspx'" class="btn btn-warning">Admin</button>
                     </li>
                </ul>
@@ -74,12 +145,9 @@
 
         <div class="footer">
                 <p align="center">
-                <br />
-                NO NEED TO RUN, BIDDING IS FUN !!<br />Just Bid It !!<br /><br />
+                <br />Communication works for those who work at it !!
+                <br />LIVE, LEARN, EXPLORE !!<br /><br />
                 @2022,Dictionary House&emsp;&emsp;&emsp;
-                <a href="ContactUs.aspx">Contact Us</a>&emsp;&emsp;&emsp;
-                <a href="cookie.aspx">Cookie Policy</a>&emsp;&emsp;&emsp;
-                <a href="terms.aspx">Terms & Conditions</a>&emsp;&emsp;&emsp;
                 <img src="facebook.png" style="top:530px; height:40px; width:40px;"/>&emsp;&emsp;&emsp;
                 <img src="instagram.png" style="top:530px; height:40px; width:40px;" />
             </p>

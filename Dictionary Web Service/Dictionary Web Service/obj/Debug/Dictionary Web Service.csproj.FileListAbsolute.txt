@@ -5,10 +5,10 @@ C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\obj\De
 C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.csproj.CoreCompileInputs.cache
 C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.dll
 C:\Users\machc\source\repos\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.pdb
-E:\SOC Project\Project\Dictionary Web Service\Dictionary Web Service\bin\Debug\Dictionary Web Service.dll.config
-E:\SOC Project\Project\Dictionary Web Service\Dictionary Web Service\bin\Debug\Dictionary Web Service.dll
-E:\SOC Project\Project\Dictionary Web Service\Dictionary Web Service\bin\Debug\Dictionary Web Service.pdb
-E:\SOC Project\Project\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.csproj.AssemblyReference.cache
-E:\SOC Project\Project\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.csproj.CoreCompileInputs.cache
-E:\SOC Project\Project\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.dll
-E:\SOC Project\Project\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.pdb
+C:\Palna\SEM-6\SOC\PROJECT\Dictionary Web Service\Dictionary Web Service\bin\Debug\Dictionary Web Service.dll.config
+C:\Palna\SEM-6\SOC\PROJECT\Dictionary Web Service\Dictionary Web Service\bin\Debug\Dictionary Web Service.dll
+C:\Palna\SEM-6\SOC\PROJECT\Dictionary Web Service\Dictionary Web Service\bin\Debug\Dictionary Web Service.pdb
+C:\Palna\SEM-6\SOC\PROJECT\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.csproj.AssemblyReference.cache
+C:\Palna\SEM-6\SOC\PROJECT\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.csproj.CoreCompileInputs.cache
+C:\Palna\SEM-6\SOC\PROJECT\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.dll
+C:\Palna\SEM-6\SOC\PROJECT\Dictionary Web Service\Dictionary Web Service\obj\Debug\Dictionary Web Service.pdb

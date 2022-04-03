@@ -12,18 +12,7 @@ namespace DictionaryClient
         public bool flag = false;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-            {
-                Label1.Text = "";
-                Label2.Text = "";
-                Label3.Text = "";
-                Label4.Text = "";
-                Label5.Text = "";
-                Label6.Text = "";
-                Label7.Text = "";
-                Label8.Text = "";
-                Label9.Text = "";
-            }
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -35,7 +24,6 @@ namespace DictionaryClient
             if(word.Title != "" )
             {
                 flag = true;
-                Label1.Text = "";
                 Label2.Text = word.Title.ToString();
                 Label3.Text = word.Meaning.ToString();
                 Label4.Text = word.Pronunciation.ToString();
@@ -44,20 +32,13 @@ namespace DictionaryClient
                 Label7.Text = word.Synonym.ToString();
                 Label8.Text = word.Antonym.ToString();
                 Label9.Text = word.ExampleSentence.ToString();
+                Label1.Text = "";
 
             }
             else
             {
                 flag = false;
-                Label1.Text = "Word Not Found :(";
-                Label2.Text = "";
-                Label3.Text = "";
-                Label4.Text = "";
-                Label5.Text = "";
-                Label6.Text = "";
-                Label7.Text = "";
-                Label8.Text = "";
-                Label9.Text = "";
+                Label1.Text = "Word Not Found :("; 
             }
         }
     }

@@ -16,82 +16,65 @@
 
 
         <div>
-        </div>
-        <table style="width:100%;">
-            <tr>
-                <td class="auto-style1"></td>
-                <td class="auto-style1"></td>
-                <td class="auto-style1"></td>
-            </tr>
+        
+        <table class="table table-hover" style="width:50%;">
             <tr>
                 <td>Title</td>
                 <td>
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
             </tr>
-            <tr>
+            <tr class="table-active">
                 <td>Meaning</td>
                 <td>
                     <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
             </tr>
-            <tr>
+            <tr class="table-primary">
                 <td>Pronunciation</td>
                 <td>
                     <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
             </tr>
-            <tr>
+            <tr class="table-secondary">
                 <td class="auto-style1">Plural</td>
                 <td class="auto-style1">
                     <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
                 </td>
-                <td class="auto-style1"></td>
             </tr>
-            <tr>
+            <tr class="table-success">
                 <td class="auto-style1">Adjective</td>
                 <td class="auto-style1">
                     <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
                 </td>
-                <td class="auto-style1"></td>
             </tr>
-            <tr>
+            <tr class="table-danger">
                 <td>Synonym</td>
                 <td class="auto-style2">
                     <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
             </tr>
-            <tr>
+            <tr class="table-warning">
                 <td>Antonym</td>
                 <td class="auto-style2">
                     <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
             </tr>
-            <tr>
+            <tr class="table-info">
                 <td class="auto-style1">Example Sentence </td>
                 <td class="auto-style1">
                     <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
                 </td>
-                <td class="auto-style1"></td>
             </tr>
+            
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style1" colspan="3">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click"  Text="Button" />
-&nbsp;&nbsp;&nbsp;
-                    <br />
-                    <br />
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin.aspx">Back</asp:HyperLink>
+                <td class="auto-style1" colspan="2">
+                    <center><asp:Button class="btn btn-success" ID="Button1" runat="server" OnClick="Button1_Click"  Text="Button" />
+                 </center>
                 </td>
+                
             </tr>
         </table>
+              <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin.aspx">Back</asp:HyperLink>
+            </div>
  </asp:Content>

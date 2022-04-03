@@ -15,7 +15,7 @@ namespace DictionaryClient
             AdminReference.AdminServiceClient admin = new AdminReference.AdminServiceClient();
             AdminReference.Word[] words = admin.ShowAllWords();
             DataTable tbl = new DataTable();
-            tbl.Columns.Add(new DataColumn("WordId"));
+            tbl.Columns.Add(new DataColumn("Wordid"));
             tbl.Columns.Add(new DataColumn("Title"));
             tbl.Columns.Add(new DataColumn("Meaning"));
             tbl.Columns.Add(new DataColumn("Pronunciation"));
@@ -25,7 +25,7 @@ namespace DictionaryClient
             tbl.Columns.Add(new DataColumn("Antonym"));
             tbl.Columns.Add(new DataColumn("ExampleSentence"));
             DataRow row;
-            for (int i=0;i<words.Length;++i)
+            for (int i = 0; i < words.Length; ++i)
             {
                 row = tbl.NewRow();
                 row["WordId"] = words[i].WordId;
@@ -45,29 +45,29 @@ namespace DictionaryClient
 
         protected void GridView1_OnRowCommand(object sender, GridViewCommandEventArgs e)
         {
-            
-                if (e.CommandName == "EditWord")
-                {
+
+            if (e.CommandName == "EditWord")
+            {
                 int index = Convert.ToInt32(e.CommandArgument.ToString());
                 Response.Redirect("~/ManageWord.aspx?Id=" + index);
-                }
-                else if (e.CommandName == "DeleteWord")
-                {
+            }
+            else if (e.CommandName == "DeleteWord")
+            {
                 int index = Convert.ToInt32(e.CommandArgument.ToString());
-                
+
                 AdminReference.AdminServiceClient admin = new
                    AdminReference.AdminServiceClient();
 
                 admin.DeleteWord(index);
                 Response.Redirect("~/Admin.aspx");
             }
-            
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
             int id = -1;
-            Response.Redirect("~/ManageWord.aspx?Id=" + id );
+            Response.Redirect("~/ManageWord.aspx?Id=" + id);
         }
     }
 }
